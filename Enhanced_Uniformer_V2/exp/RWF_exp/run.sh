@@ -2,7 +2,7 @@ NUM_SHARDS=1
 NUM_GPUS=2
 BATCH_SIZE=4
 BASE_LR=1.5e-6
-work_path=./RWF_exp
+work_path=./exp/RWF_exp
 PYTHONPATH=$PYTHONPATH:./slowfast \
 python3.8 tools/run_net_multi_node.py \
   --init_method tcp://localhost:10126 \
